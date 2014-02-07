@@ -1,6 +1,6 @@
 ## How to install the vimrc?
 
-    git clone git://github.com/koofio/hhht-vim.git ~/.vimfiles
+    git clone git://github.com/koofio/koofio-vim.git ~/.vimfiles
     sh ~/.vimfiles/install_vimrc.sh
 
 
