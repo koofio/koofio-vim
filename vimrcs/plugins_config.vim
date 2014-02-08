@@ -37,3 +37,12 @@ map <leader>nn :NERDTreeToggle<cr>
 map <leader>nb :NERDTreeFromBookmark 
 map <leader>nf :NERDTreeFind<cr>
 
+
+""""""""""""""""""""""""""""""
+" => YankRing
+""""""""""""""""""""""""""""""
+if has("win16") || has("win32")
+    let g:yankring_history_dir = '~/.vimfiles/temp_dirs/'
+else
+    let g:yankring_history_dir = '~/.vimfiles/temp_dirs/'
+endif
